@@ -1,42 +1,33 @@
-# StudentManagementApp — EF Core Code-First Student and Grades System
+# StudentManagementApp â€” ASP.NET Core MVC (Code-First)
 
-## Overview  
-StudentManagementApp is an ASP.NET Core MVC application that simulates a student–grade management system using EF Core Code-First modeling.  
-It demonstrates relational modeling, seeded data, LINQ queries, and a structured Razor UI for displaying student information and associated grades.
+## Overview
+StudentManagementApp is an ASP.NET Core MVC application that demonstrates a student-and-grades domain using **Entity Framework Core (Code-First)** with **SQL Server**.  
+The project focuses on relational data modeling, seeded data, and **LINQ-based querying**, presented through a clean, Razor-based UI.
 
----
+## Tech Stack
+- **C# Â· .NET 10**
+- **ASP.NET Core MVC**
+- **Entity Framework Core (Code-First)**
+- **SQL Server**
+- **LINQ**
+- **Razor Views**
 
-## Tech Stack  
-- ASP.NET Core MVC  
-- Entity Framework Core (Code-First)  
-- SQL Server  
-- LINQ  
-- Razor Views  
+## Key Features
+- Code-First domain models with **one-to-many relationships** (Student â†’ Grades)
+- **Seeded sample data** for quick setup and consistent demo scenarios
+- LINQ queries for **filtering, grouping, and reporting-style output** (e.g., summaries and averages)
+- Razor UI for structured display of students, subjects, and grades
+- EF Core **migrations** for schema evolution and database versioning
 
----
+## Architecture & Concepts
+- Entity Framework Core Code-First workflow with migrations
+- Relational data modeling with navigation properties
+- LINQ-based data workflows for querying and aggregation
+- MVC separation of concerns (Models, Controllers, Views)
+- Maintainable structure suitable for future extensions
 
-## Key Features  
-- Code-First models with one-to-many relationships (Student <-> Grades)  
-- Seeded sample data for quick testing and demonstration  
-- LINQ queries for grouping, filtering, and calculating totals or averages  
-- Razor Views for clean and intuitive presentation of students and grades  
-- EF Core migrations for database versioning and schema evolution  
+## Skills Demonstrated
+C# Â· .NET 10 Â· ASP.NET Core MVC Â· Entity Framework Core Â· SQL Server Â· LINQ Â· Code-First Migrations Â· Relational Data Modeling Â· Razor Views
 
----
-
-## Architecture and Concepts  
-- EF Core Code-First + migrations  
-- One-to-many relational data modeling  
-- LINQ-based data workflows  
-- MVC pattern for clear separation of responsibilities  
-- Clean separation between model, logic, and UI layers  
-
----
-
-## Skills Demonstrated  
-EF Core Code-First · LINQ · ASP.NET Core MVC · Razor Views · Data Modeling · Migrations · Relational Structures
-
----
-
-## Project Status  
-Light educational project built to demonstrate Code-First modeling, relational structures, and LINQ-based data operations.
+## Project Status
+Educational project designed to demonstrate **Code-First modeling**, relational structures, and LINQ-based data operations in an ASP.NET Core MVC application.
