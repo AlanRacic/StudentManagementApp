@@ -16,6 +16,7 @@ namespace StudentManagementApp.Controllers
         public async Task<IActionResult> Index()
         {
             var studentsWithGrades = await _context.Students
+                .AsNoTracking()
                 .Include(s => s.Grades)
                 .ToListAsync();
 
